@@ -60,15 +60,16 @@ const renderPlayerDetails = () => {
   
   const detailsHTML = `
     <h2> ${ state.playerDetails.name }</h2>
-      <p>${state.playerDetails}</p>
+   
       <p1>${state.playerDetails.breed}<p1>
       <p2>${state.playerDetails.status}<p2>
-      <p3>${state.playerDetails.}<p3>
+      <p3>${state.playerDetails.id}<p3>
+    
   `
-
+  //<p>${state.playerDetails}</p>
   const button = document.createElement(`button`);
 
-//state.playerDetails.breed
+
 
 
   button.innerText = `back`;
